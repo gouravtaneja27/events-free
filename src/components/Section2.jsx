@@ -87,7 +87,7 @@ export default function Section2() {
 
                         {!playVideo ? (
                             <div className="video-thumbnail position-relative" onClick={() => setPlayVideo(true)} style={{ cursor: "pointer" }}>
-                                <img src="/src/assets/images/iiii.png" alt="video thumbnail" className="w-100" />
+                                <img src="/assets/images/iiii.png" alt="video thumbnail" className="w-100" />
 
                          
                               
@@ -107,7 +107,7 @@ export default function Section2() {
                     </div>
 
                     <div className="col-lg-6 col-12">
-                        <img src="/src/assets/images/line2.png" alt="line" />
+                        <img src="/assets/images/line2.png" alt="line" />
                         <h2 className="text-dark fw-xl fs-5xl section2-heading">What make us special ?</h2>
                         <p className="fw-sm fs-lg section2-description text-dark">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit.
@@ -118,7 +118,7 @@ export default function Section2() {
                                 <div className="main-card d-flex justify-content-center">
                                     <div className="section2-card position-relative">
                                         <div className="card-circle position-absolute d-flex justify-content-center align-items-center">
-                                            <img src="/src/assets/images/sharing.png" alt="sharing" />
+                                            <img src="/assets/images/sharing.png" alt="sharing" />
                                         </div>
                                         <div className="card-data">
                                             <h4 className="card-heading fw-md fs-3xl text-blue d-flex justify-content-center">sharing</h4>
@@ -132,7 +132,7 @@ export default function Section2() {
                                 <div className="main-card d-flex justify-content-center">
                                     <div className="section2-card position-relative ">
                                         <div className="card-circle position-absolute d-flex justify-content-center align-items-center">
-                                            <img src="/src/assets/images/info.png" alt="info" />
+                                            <img src="/assets/images/info.png" alt="info" />
                                         </div>
                                         <div className="card-data">
                                             <h4 className="card-heading fw-md fs-3xl text-blue d-flex justify-content-center">info</h4>
@@ -148,7 +148,7 @@ export default function Section2() {
                                 <div className="main-card d-flex justify-content-center mt-20">
                                     <div className="section2-card position-relative ">
                                         <div className="card-circle position-absolute d-flex justify-content-center align-items-center">
-                                            <img src="/src/assets/images/help.png" alt="help" />
+                                            <img src="/assets/images/help.png" alt="help" />
                                         </div>
                                         <div className="card-data">
                                             <h4 className="card-heading fw-md fs-3xl text-blue d-flex justify-content-center">Help</h4>

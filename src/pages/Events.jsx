@@ -12,7 +12,7 @@ const events = Array.from({ length: 9 }).map((_, i) => ({
     date: "10/02/2022",
     location: "Mumbai",
     capacity: "1,080",
-    image: "/src/assets/images/rrr.png "
+    image: "/assets/images/rrr.png "
 }));
 
 export default function Events() {
@@ -40,7 +40,7 @@ export default function Events() {
                 <div className="container">
 
                     <div className="text-center mb-5">
-                        <img src="./src/assets/images/line2.png" alt="line" className="mx-auto d-flex mt-67" />
+                        <img src="./assets/images/line2.png" alt="line" className="mx-auto d-flex mt-67" />
                         <h2 className="fs-3xl fw-bold mb-3 choose-head">Choose your next event</h2>
 
                     </div>

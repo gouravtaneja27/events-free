@@ -310,7 +310,7 @@
 
 .section3 {
     max-width: 1920px;
-    background-image: url(/src/assets/images/section3-img.png);
+    background-image: url(/assets/images/section3-img.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
