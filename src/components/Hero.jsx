@@ -37,7 +37,7 @@ export default function Hero() {
                 <div className="blue-box d-flex justify-content-between  position-relative flex-md-row flex-column z-1">
                     <div className="d-flex justify-content-between align-items-center width-lg-178 width-md-150 mx-auto mx-lg-0">
                         <img
-                            src="/src/assets/images/map.png"
+                            src="/assets/images/map.png"
                             alt="location"
                             className="w-100 max-w-24"
                         />
@@ -52,7 +52,7 @@ export default function Hero() {
 
                     <div className="d-flex justify-content-between align-items-center width-lg-178 width-md-150 mx-auto mx-lg-0">
                         <img
-                            src="/src/assets/images/vector.png"
+                            src="/assets/images/vector.png"
                             alt="date"
                             className="w-100 max-w-23"
                         />
@@ -67,7 +67,7 @@ export default function Hero() {
 
                     <div className="d-flex justify-content-between align-items-center width-ld-178 width-md-150 mx-auto mx-lg-0">
                         <img
-                            src="/src/assets/images/capacity.svg"
+                            src="/assets/images/capacity.svg"
                             alt="capacity"
                             className="w-100 max-w-30"
                         />
