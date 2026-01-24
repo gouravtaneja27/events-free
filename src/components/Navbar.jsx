@@ -35,14 +35,14 @@ export default function Navbar() {
                         <div className="d-flex align-items-center header-logo ">
                             <NavLink to="/">
                                 <img
-                                    src="/src/assets/images/logo.png"
+                                    src="/assets/images/logo.png"
                                     alt="logo"
                                     className="w-100 max-w-98"
                                 />
                             </NavLink>
                             <NavLink to="/">
                                 <img
-                                    src="/src/assets/images/Eventfree.png"
+                                    src="/assets/images/Eventfree.png"
                                     alt="logo-text"
                                     className="d-sm-block w-100 max-w-203"
                                 />

@@ -9,7 +9,7 @@ export default function Hero() {
             <div className="container">
                 <h2 className="text-light fs-6xl fw-xl header-heading position-relative h-100">
                     <img
-                        src="/src/assets/images/lin1.png"
+                        src="/assets/images/lin1.png"
                         alt="line"
                         className="line w-100 max-w-472 position-absolute"
                     />

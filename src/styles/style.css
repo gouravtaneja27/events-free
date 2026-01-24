@@ -82,7 +82,7 @@
 .header {
     max-width: 1920px;
     min-height: 100vh;
-    background-image: url(/src/assets/images/events.png);
+    background-image: url(/assets/images/events.png);
         background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
