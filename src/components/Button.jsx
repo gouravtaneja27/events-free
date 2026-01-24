@@ -1,22 +1,13 @@
-import React from "react";
+import React from 'react'
+import './button.css'
 
-import "./Button.css"; 
-
-const Button = ({ text, onClick, type = "button", className = "" }) => {
+function Button(props) {
     return (
-        <button
-            type={type}
-
-            onClick={onClick}
-            className={`custom-button ${className}`}
-
-          
-        >
-            {text}
+        <button className={`custom-btn ${props.className || ''}`}>
+            {props.text}
         </button>
-    );
-};
+    )
+}
 
-export default Button;
-
+export default Button
             

@@ -1,17 +1,22 @@
-
-
-.hero-btn {
+.custom-btn {
+    background-color: #2C49FE;
+    padding: 11px 28px;
+    /* py-2.75 ≈ 11px, px-7 ≈ 28px */
     border-radius: 23px;
-        padding: 11px 28px;
-        background-color: #2C49FE;
-        border: none;
-        line-height: 150%;
-        font-family: Poppins;
-        margin-left: 50px;
-        transition: all 100ms linear;
+    font-family: 'Poppins', sans-serif;
+    line-height: 150%;
+    letter-spacing: 0%;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
 }
-.hero-btn:hover {
-    background-color: yellow;
-    color: black;
-    transform: translateY(-3px);
+
+.custom-btn:hover {
+    background-color: white;
+        color: #293FC6 !important;
+        scale: 1.06;
+    
+    
 }
