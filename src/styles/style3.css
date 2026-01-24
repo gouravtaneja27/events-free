@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.events-banner {
+    background-image: url("/src/assets/images/ppp.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 220px;
+    position: relative;
+    color: #fff;
+}
+
+.events-banner .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.events-banner .container {
+    position: relative;
+    /* above overlay */
+    z-index: 0;
+}
+
+.breadcrumb-text {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+    margin-bottom: 0.2rem;
+}
+
+
+
+
+.event-card {
+    transition: transform .18s ease, box-shadow .18s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+
+}
+
+.event-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(14, 30, 60, 0.12);
+}
+
+.card-img-top img {
+    height: 252px;
+        width: 344px;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+ padding: 15px;
+}
+
+.choose-head {
+    font-family: "Poppins";
+        font-weight: 700;
+        font-size: 48px;
+       
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+}
+    
+
+.card-title {
+font-family: Poppins;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.event-meta small {
+    color: #7b7b88;
+    font-size: 0.85rem;
+}
+
+.event-meta li {
+    margin-bottom: 6px;
+}
+
+.meta-icon {
+    display: inline-flex;
+    width: 22px;
+    justify-content: center;
+}
+
+/* Go button */
+.btn-go {
+    background: blue;
+    border: none;
+    color: #fff;
+}
+
+.btn-go:hover {
+    opacity: 0.95;
+}
+
+/* Responsive tweaks */
+@media (max-width: 767px) {
+    .card-img-top img {
+        height: 160px;
+    }
+
+    .events-banner {
+        min-height: 160px;
+    }
+}
+
+/* Page spacing */
+.events-content {
+    background: #fff;
+    padding-top: 40px;
+}
+
+/* make banner text readable on small screens */
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 28px;
+    }
+}
