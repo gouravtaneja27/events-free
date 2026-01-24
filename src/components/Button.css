@@ -1,0 +1,17 @@
+
+
+.hero-btn {
+    border-radius: 23px;
+        padding: 11px 28px;
+        background-color: #2C49FE;
+        border: none;
+        line-height: 150%;
+        font-family: Poppins;
+        margin-left: 50px;
+        transition: all 100ms linear;
+}
+.hero-btn:hover {
+    background-color: yellow;
+    color: black;
+    transform: translateY(-3px);
+}
