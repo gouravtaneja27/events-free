@@ -3,8 +3,8 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/root.css";
 import "./styles/style.css";
 import "./styles/root2.css";
