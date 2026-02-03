@@ -8,7 +8,7 @@ const FeedSection1 = () => {
             <div className="container margin-top-84">
                 <div className="row-7">
                     <div className="col-box-4">
-                        <img className='w-100' src="./src/assets/images/rj1.png" alt="img" />
+                        <img className='w-100' src="./assets/images/rj1.png" alt="img" />
                     </div>
                     <div className="col-8">
                         <div className="box-8">
@@ -22,14 +22,14 @@ const FeedSection1 = () => {
                             <h4 className='heading-13'>Following Events :</h4>
                             <div className="box-row-1">
                                 <div className="box-type-1">
-                                    <img src="./src/assets/images/rj2.png" alt="img" />
+                                    <img src="./assets/images/rj2.png" alt="img" />
                                     <div className="h-p-box-1">
                                         <h4 className='heading-14'>Augue etiam</h4>
                                         <p className='para-14'>Quis et id urna sagittis. Enim lacus, felis, libero sed nisl vitae blandit sociis.</p>
                                     </div>
                                 </div>
                                 <div className="box-type-1">
-                                    <img src="./src/assets/images/rj3.png" alt="img" />
+                                    <img src="./assets/images/rj3.png" alt="img" />
                                     <div className="h-p-box-1">
                                         <h4 className='heading-14'>Augue etiam</h4>
                                         <p className='para-14'>Quis et id urna sagittis. Enim lacus, felis, libero sed nisl vitae blandit sociis.</p>

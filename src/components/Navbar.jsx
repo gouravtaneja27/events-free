@@ -32,7 +32,7 @@ export default function Navbar() {
         >
             <nav className="navbar-inner ">
                 <div className="container">
-                    <div className="d-flex align-items-center justify-content-between "> 
+                    <div className="d-flex align-items-center justify-content-between ">
                         <div className="d-flex align-items-center header-logo ">
                             <NavLink to="/">
                                 <img
@@ -43,7 +43,7 @@ export default function Navbar() {
                             </NavLink>
                             <NavLink to="/">
                                 <img
-                                    src="/assets/images/Eventfree.png"
+                                    src="/assets/images/eventfree.png"
                                     alt="logo-text"
                                     className="d-sm-block w-100 max-w-203"
                                 />
