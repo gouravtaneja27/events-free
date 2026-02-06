@@ -469,7 +469,7 @@
 
 
 
-   @media (min-width:576px) {
+   /* @media (min-width:576px) {
        .col-sm-6 {
            width: 50%;
            padding-left: 12px;
@@ -1033,4 +1033,4 @@
            width: 280px;
        }
 
-   }
+   } */

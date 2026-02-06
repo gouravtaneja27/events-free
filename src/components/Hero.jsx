@@ -53,7 +53,7 @@ export default function Hero() {
 
                     <div className="d-flex justify-content-between align-items-center width-lg-178 width-md-150 mx-auto mx-lg-0">
                         <img
-                            src="/assets/images/vector.png"
+                            src="/assets/images/Vector.png"
                             alt="date"
                             className="w-100 max-w-23"
                         />
