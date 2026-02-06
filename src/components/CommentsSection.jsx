@@ -20,19 +20,19 @@ const CommentsSection = () => {
                 id: 1,
                 user: "Username",
                 text: "Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget aliquet.",
-                img: "./src/assets/images/g2g1.png"
+                img: "./assets/images/g2g1.png"
             },
             {
                 id: 2,
                 user: "Username",
                 text: "Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla.",
-                img: "./src/assets/images/g2g2.png"
+                img: "./assets/images/g2g2.png"
             },
             {
                 id: 3,
                 user: "Username",
                 text: "Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget aliquet.",
-                img: "./src/assets/images/g2g3.png"
+                img: "./assets/images/g2g3.png"
             }
         ],
         [
@@ -40,19 +40,19 @@ const CommentsSection = () => {
                 id: 1,
                 user: "Username",
                 text: "Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus gravida sed interdum pretium at quam morbi.",
-                img: "./src/assets/images/g2g1.png"
+                img: "./assets/images/g2g1.png"
             },
             {
                 id: 2,
                 user: "Username",
                 text: "Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla.",
-                img: "./src/assets/images/g2g2.png"
+                img: "./assets/images/g2g2.png"
             },
             {
                 id: 3,
                 user: "Username",
                 text: "Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget aliquet.",
-                img: "./src/assets/images/g2g3.png"
+                img: "./assets/images/g2g3.png"
             }
         ],
         [
@@ -60,19 +60,19 @@ const CommentsSection = () => {
                 id: 1,
                 user: "Username",
                 text: "Senectus gravida sed interdum pretium at quam morbi.",
-                img: "./src/assets/images/g2g1.png"
+                img: "./assets/images/g2g1.png"
             },
             {
                 id: 2,
                 user: "Username",
                 text: "Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla.",
-                img: "./src/assets/images/g2g2.png"
+                img: "./assets/images/g2g2.png"
             },
             {
                 id: 3,
                 user: "Username",
                 text: "Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.",
-                img: "./src/assets/images/g2g3.png"
+                img: "./assets/images/g2g3.png"
             }
         ],
         [
@@ -80,19 +80,19 @@ const CommentsSection = () => {
                 id: 1,
                 user: "Username",
                 text: "Ut vitae dolor fringilla urna eget aliquet.",
-                img: "./src/assets/images/g2g1.png"
+                img: "./assets/images/g2g1.png"
             },
             {
                 id: 2,
                 user: "Username",
                 text: "Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla.",
-                img: "./src/assets/images/g2g2.png"
+                img: "./assets/images/g2g2.png"
             },
             {
                 id: 3,
                 user: "Username",
                 text: "Senectus gravida sed interdum pretium at quam morbi.",
-                img: "./src/assets/images/g2g3.png"
+                img: "./assets/images/g2g3.png"
             }
         ],
         [
@@ -100,19 +100,19 @@ const CommentsSection = () => {
                 id: 1,
                 user: "Username",
                 text: "Hendrerit vulputate in duis donec sit.",
-                img: "./src/assets/images/g2g1.png"
+                img: "./assets/images/g2g1.png"
             },
             {
                 id: 2,
                 user: "Username",
                 text: "Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla.",
-                img: "./src/assets/images/g2g2.png"
+                img: "./assets/images/g2g2.png"
             },
             {
                 id: 3,
                 user: "Username",
                 text: "Senectus gravida sed interdum pretium at quam morbi.",
-                img: "./src/assets/images/g2g3.png"
+                img: "./assets/images/g2g3.png"
             }
         ]
     ]);
@@ -153,7 +153,7 @@ const CommentsSection = () => {
                         <div className="card-box">
                             <div className="card-1">
                                 <div className="box-1">
-                                    <img src="./assets/image-icon-svg.svg" alt="" />
+                                    <img src="./assets/images/g2g1.png" alt="" />
                                     <div className="h-p-box-2">
                                         <h3 className='heading-17'>Username</h3>
                                         <p className='para-15'>Post event name</p>
@@ -193,12 +193,12 @@ const CommentsSection = () => {
                             </div>
                             <div className="card-2">
                                 <div className="flex-box-1">
-                                    <div className="box-img"><img className='width-100' src="./assets/images/img-1.png" alt="" /></div>
-                                    <div className="box-img"><img className='width-100' src="./assets/images/img-2.png" alt="" /></div>
+                                    <div className="box-img"><img className='width-100' src="./assets/images/191919.png" alt="" /></div>
+                                    <div className="box-img"><img className='width-100' src="./assets/images/202020.png" alt="" /></div>
                                 </div>
                                 <div className="flex-box-1">
-                                    <div className="box-img"><img className='width-100' src="./assets/images/img-3.png" alt="" /></div>
-                                    <div className="box-img"><img className='width-100' src="./assets/images/img-4.png" alt="" /></div>
+                                    <div className="box-img"><img className='width-100' src="./assets/images/212121.png" alt="" /></div>
+                                    <div className="box-img"><img className='width-100' src="./assets/images/222324.png" alt="" /></div>
                                 </div>
                                 <Link to='/Events'>
                                     <div className="box-2">
@@ -213,7 +213,7 @@ const CommentsSection = () => {
                             <line opacity="0.2" x1="4.37114e-08" y1="0.5" x2="1251" y2="0.500109" stroke="black" />
                         </svg>
                         <div className="box-4">
-                            <img src="./assets/images/Ellipse 18.png" className='img-circle' alt="img-circle" />
+                            <img src="./assets/images/181818.png" className='img-circle' alt="img-circle" />
                             <input className='comment' type="text" placeholder='Write your comment here...' value={commentText[postIndex]} onChange={(e) => setCommentText(commentText.map((t, i) => i === postIndex ? e.target.value : t))} />
                             <button className='post-comment' onClick={() => postComment(postIndex)}>Post Comment</button>
                         </div>
@@ -254,3 +254,4 @@ const CommentsSection = () => {
 }
 
 export default CommentsSection
+
