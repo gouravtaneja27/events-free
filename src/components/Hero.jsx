@@ -1,7 +1,6 @@
 // src/components/Hero.jsx
 import React from "react";
 import Navbar from "./Navbar";
-import Button from "./Button";
 
 export default function Hero() {
     return (
@@ -31,13 +30,6 @@ export default function Hero() {
                     <button className="get-started fs-2xl fw-lg text-light header-button bg-blue">
                         Get Started
                     </button>
-                    {/* <Button
-                        text="Get Started"
-                        className="hero-btn" 
-                        onClick={() => alert("Clicked")}
-                    /> */}
-                  
-                
                     <a href="#" className="learn-more fw-400 fs-2xl text-light">
                         Learn more
                     </a>

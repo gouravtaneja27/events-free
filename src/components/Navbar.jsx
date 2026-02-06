@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import Button from "./Button";
+
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
@@ -81,7 +81,6 @@ export default function Navbar() {
                                 <button className="nav-button">
                                     Log Out
                                 </button>
-                                {/* <Button className="text-white font-semibold text-16" text="Log Out" /> */}
                             </div>
                         </div>
                     </div>

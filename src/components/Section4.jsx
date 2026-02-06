@@ -50,30 +50,3 @@ return (
     </section>
 )
 }
-
-
-// function SignUpForm() {
-//     const handleSubmit = (e) => {
-//         e.preventDefault()
-        
-//         alert('Form submitted (demo)')
-//     }
-
-
-//     return (
-//         <form onSubmit={handleSubmit}>
-//             <h4 className="sign-up text-dark fs-4xl fw-xl">Sign Up</h4>
-//             <div className="w-100 d-flex justify-content-between mb-16 flex-column flex-sm-row gap-20">
-//                 <input type="text" placeholder="First Name " className="px-17 w-sm-49 w-100" />
-//                 <input type="text" placeholder="Last Name" className="px-17 w-sm-49 w-100 " />
-//             </div>
-//             <input type="email" placeholder="Email Address" className="px-17 w-100 mb-16" />
-//             <div className="mb-16 d-flex justify-content-between flex-sm-row flex-column gap-20 ">
-//                 <input type="password" placeholder="Password" className="px-17 w-sm-49 w-100" />
-//                 <input type="password" placeholder="Confirm Password" className="px-17 w-sm-49 w-100" />
-//             </div>
-//             <textarea placeholder="About Me" className="w-100 textarea"></textarea>
-//             <button className="form-button bg-blue w-100 text-light">Sign up</button>
-//         </form>
-//     )
-// }
